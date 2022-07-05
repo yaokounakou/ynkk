@@ -70,7 +70,6 @@ nav ul li a:hover {
 }
 
 .headline {
-  margin-top: 20px;
   text-align: center;
 }
 
@@ -109,6 +108,37 @@ section {
   font-weight: bold;
 }
 
+@media screen and (max-width: 810px) {
+
+  nav {
+    padding: 5%;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  .hero-content {
+    padding: 0 15%;
+  }
+
+  .headline {
+    text-align: center;
+  }
+
+  .headline h1 {
+    font-size: 3rem;
+  }
+
+  section {
+    padding: 0 15%;
+  }
+
+  .content h2 {
+    font-size: 2rem;
+  }
+}
+
 @media screen and (max-width: 428px) {
 
   nav {
@@ -124,7 +154,6 @@ section {
   }
 
   .headline {
-    margin-top: 20px;
     text-align: center;
   }
 
@@ -141,14 +170,14 @@ section {
   }
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 375px) {
 
   nav {
     padding: 5%;
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .hero-content {
@@ -156,12 +185,11 @@ section {
   }
 
   .headline {
-    margin-top: 20px;
     text-align: center;
   }
 
   .headline h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   section {
@@ -169,6 +197,6 @@ section {
   }
 
   .content h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
