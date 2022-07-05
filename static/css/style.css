@@ -38,15 +38,19 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2.5%;
+  padding: 0 2.5%;
   position: fixed;
   top: 0;
   background-color: var(--white);
-  border-bottom: 1px solid var(--grey);
+  /* border-bottom: 1px solid var(--grey); */
 }
 
 nav a {
   color: var(--black);
+}
+
+nav img {
+  height: inherit;
 }
 
 nav ul li {
